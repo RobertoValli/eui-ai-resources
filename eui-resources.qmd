@@ -92,7 +92,7 @@ When AI is part of your method, also keep the full prompts, settings and outputs
 
 ## AI tools available through the EUI {#tools}
 
-Information on institutionally available tools and licences is being checked. For current account and software access, contact the [EUI Helpdesk](https://www.eui.eu/Helpdesk).
+For current information on institutionally available tools, licences, accounts and software access, contact the [EUI Helpdesk](https://www.eui.eu/Helpdesk).
 
 ::: {.page-modified}
 Modified: 12 October 2026

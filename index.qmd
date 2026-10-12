@@ -101,8 +101,4 @@ When AI contributes to research outputs or methods, keep enough information to e
 This website is maintained independently by [Filip Olsson](https://www.eui.eu/people?id=filip-olsson) and [Roberto Valli](https://www.eui.eu/people?id=roberto-valli), the EUI Part-time Assistant Professors of AI. It is intended for EUI researchers and brings together practical advice, consultation information, and links to authoritative EUI sources.
 
 The site complements—not replaces—formal EUI policies, your supervisor's guidance, or advice from the relevant EUI services. Where a statement summarises an institutional rule, the source is identified so that you can consult it directly.
-
-::: {.review-line}
-**Review status:** Editorial and policy review pending
-:::
 :::
