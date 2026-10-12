@@ -1,0 +1,23 @@
+<script>
+  (function () {
+    function openLinkedAnswer() {
+      var id = decodeURIComponent(window.location.hash.slice(1));
+      var answer = id && document.getElementById(id);
+      if (!answer || !answer.classList.contains('qa')) return;
+
+      var content = answer.querySelector('.callout-collapse');
+      if (content && !content.classList.contains('show')) {
+        if (window.bootstrap && window.bootstrap.Collapse) {
+          window.bootstrap.Collapse.getOrCreateInstance(content, { toggle: false }).show();
+        } else {
+          var header = answer.querySelector('.callout-header');
+          if (header) header.click();
+        }
+      }
+      answer.scrollIntoView({ block: 'start' });
+    }
+
+    window.addEventListener('load', openLinkedAnswer);
+    window.addEventListener('hashchange', openLinkedAnswer);
+  })();
+</script>

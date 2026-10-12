@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+
+website:
+  title: "AI Resources for EUI Researchers"
+  description: "Practical guidance on using AI in research at the European University Institute."
+  site-url: "https://robertovalli.github.io/eui-ai-resources/"
+  favicon: assets/eui-mark.svg
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+  back-to-top-navigation: true
+  repo-url: "https://github.com/RobertoValli/eui-ai-resources"
+  repo-actions: [issue]
+  navbar:
+    logo: assets/eui-mark.svg
+    logo-alt: "European University Institute"
+    title: "AI Resources"
+    pinned: true
+    left:
+      - text: Welcome
+        href: index.qmd
+      - text: Consultations
+        href: consultations.qmd
+      - text: EUI resources
+        href: eui-resources.qmd
+      - text: Getting started
+        href: getting-started.qmd
+    tools:
+      - icon: github
+        href: "https://github.com/RobertoValli/eui-ai-resources"
+        aria-label: "View this project on GitHub"
+  page-footer:
+    left: |
+      Independently maintained by the EUI Part-time Assistant Professors of AI.
+    center: |
+      [About this resource](index.qmd#about-this-resource)
+    right: |
+      Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    include-after-body: assets/callout-links.html
+    toc: true
+    toc-title: "On this page"
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+
+lang: en

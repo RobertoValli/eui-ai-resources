@@ -1,0 +1,108 @@
+---
+title: "AI Resources for EUI Researchers"
+description: "A practical starting point for EUI researchers who want to use AI thoughtfully, responsibly, and effectively."
+page-layout: full
+toc: false
+title-block-style: none
+---
+
+::: {.hero .column-screen}
+::: {.hero-inner}
+# AI Resources for EUI Researchers
+
+A practical starting point for using artificial intelligence thoughtfully, responsibly, and effectively in research.
+
+::: {.hero-actions}
+[Book a consultation](consultations.qmd){.btn .btn-primary .btn-lg}
+[Explore the guide](getting-started.qmd){.btn .btn-outline-primary .btn-lg}
+:::
+
+<p class="status-note"><span aria-hidden="true">●</span> Independently maintained by Roberto Valli and Filip Olsson</p>
+:::
+:::
+
+::: {.home-section}
+## Where would you like to begin?
+
+Artificial intelligence is reshaping how scholars learn and conduct their research. The EUI's Department of Social and Political Sciences has sponsored two Part-time Assistant Professor positions to help the community adopt AI responsibly and effectively.
+
+On this website, you can book a consultation about your research project and find guidance and resources on AI. If you feel something is missing, please leave an issue on [GitHub](https://github.com/RobertoValli/eui-ai-resources/issues/new).
+
+::: {.path-grid}
+::: {.path-card}
+<span class="path-number" aria-hidden="true">01</span>
+
+### [Prepare for a consultation](consultations.qmd)
+
+Find out what we can help with, what to bring, and how to book a one-to-one conversation about your research.
+:::
+
+::: {.path-card}
+<span class="path-number" aria-hidden="true">02</span>
+
+### [Check EUI-specific guidance](eui-resources.qmd)
+
+Start with EUI rules and resources on responsible use, data protection, disclosure, and research integrity.
+:::
+
+::: {.path-card}
+<span class="path-number" aria-hidden="true">03</span>
+
+### [Understand AI and LLMs](getting-started.qmd)
+
+Learn what these tools do, where they are useful, how they fail, and how to assess their output.
+:::
+
+::: {.path-card}
+<span class="path-number" aria-hidden="true">04</span>
+
+### [Use AI in a research workflow](getting-started.qmd#ai-as-method)
+
+Think through validation, reproducibility, documentation, and the additional care required when AI becomes part of a method.
+:::
+:::
+:::
+
+::: {.principles-band .column-screen}
+::: {.home-section}
+## Four principles to carry with you
+
+::: {.principles-grid}
+::: {.principle}
+### You remain responsible
+
+AI can assist with a task, but responsibility for what you submit, publish, or use in an analysis remains yours.
+:::
+
+::: {.principle}
+### Protect sensitive material
+
+Check confidentiality, consent, data-protection, and service-provider conditions before sharing research material with a tool.
+:::
+
+::: {.principle}
+### Verify the output
+
+Fluent answers can still be wrong. Check factual claims, references, summaries, code, and transformations against appropriate sources or tests.
+:::
+
+::: {.principle}
+### Document consequential uses
+
+When AI contributes to research outputs or methods, keep enough information to explain, assess, and where possible reproduce what you did.
+:::
+:::
+:::
+:::
+
+::: {.home-section #about-this-resource}
+## About this resource
+
+This website is maintained independently by [Filip Olsson](https://www.eui.eu/people?id=filip-olsson) and [Roberto Valli](https://www.eui.eu/people?id=roberto-valli), the EUI Part-time Assistant Professors of AI. It is intended for EUI researchers and brings together practical advice, consultation information, and links to authoritative EUI sources.
+
+The site complements—not replaces—formal EUI policies, your supervisor's guidance, or advice from the relevant EUI services. Where a statement summarises an institutional rule, the source is identified so that you can consult it directly.
+
+::: {.review-line}
+**Review status:** Editorial and policy review pending
+:::
+:::

@@ -1,0 +1,76 @@
+---
+title: "AI consultations"
+description: "This page contains information on what EUI researchers can bring to an AI consultation, how to prepare, and how to book."
+---
+
+AI consultations are open to EUI PhD researchers. We spend 20 minutes on one research problem, in person or on Teams.
+
+[Book a consultation](https://bookings.cloud.microsoft/book/AIConsultationsEUI@EUI1.onmicrosoft.com/s/FuxpCCu3DkSMqxxbxt4Pug2?ismsaljsauthenabled){.btn .btn-primary}
+
+## About AI consultations {#service}
+
+::: {#help-with .qa .callout-note collapse="true" title="What can I get help with?"}
+Any question about whether and how to use AI in your own research. For example:
+
+- **Choosing an AI-based method:** is AI a sensible way to code 2,000 open-ended survey responses, or to extract information from scanned archival documents?
+- **Improving a workflow you already use:** how can I integrate AI-assistance when coding in R, Stata or Python, or preparing job applications?
+- **Checking AI output:** what are the best practices to validate an AI-based classification against human coding?
+- **Staying within the rules:** what can I ethically share with a tool, and how to document and disclose its use?
+
+Consultations are open to EUI PhD researchers. They complement your supervisor and do not replace them: the EUI Guidelines ask you to discuss plans to use AI in your research with your supervisor first. Ethics review, data-protection decisions and IT accounts are handled by other services (see [Who else can help?](#referrals)).
+:::
+
+::: {#what-to-expect .qa .callout-note collapse="true" title="What happens in a consultation?"}
+We spend 20 minutes on one research problem, either in person or on Teams. 
+
+We will ask about your project, what you're trying to achieve and what data you're working with. Then we work out an approach, try it out where possible, and agree on concrete next steps.
+
+:::
+
+::: {#when-to-book .qa .callout-note collapse="true" title="When should I book a consultation?"}
+Book when you have a specific research problem that this page hasn't answered. For example:
+
+- You are considering AI for part of your research method and want to discuss design and validation.
+- You have tried a tool and the results are unreliable, or you can't tell whether they are.
+- You want help setting up an AI-assisted workflow for coding, writing or working with the literature.
+- You are unsure whether your planned use fits the EUI rules.
+
+If you're not sure your question fits, read [What can I get help with?](#help-with) and then book. Concluding that AI is *not* worth it for your task is a useful outcome too.
+:::
+
+::: {#experience .qa .callout-note collapse="true" title="Do I need any experience with AI?"}
+No. We particularly encourage students without AI experience to use the consultations. 
+
+A research task and a question are enough. "I have never used these tools and don't know where to start" is a perfectly good reason to book.
+
+Of course, preparing before the meeting is useful: the more precise the question, the more effective our help. For a very basic introduction, please read [What AI can and can't do](getting-started.qmd#basics); it takes about ten minutes.
+:::
+
+::: {#prepare .qa .callout-note collapse="true" title="How should I prepare?"}
+When you book, you'll be asked for:
+
+1. your research task, in two or three sentences
+2. the specific question you'd like help with
+3. what you've tried so far ("nothing yet" is fine)
+4. what you'd like to leave the consultation with
+5. what kind of data is involved, and how sensitive it is
+
+Please **describe your data, but don't upload or send it**. If useful, bring a small example you are allowed to share, such as a few lines of code or an anonymized excerpt. Reading [What AI can and can't do](getting-started.qmd#basics) beforehand means we can spend the time on your problem.
+:::
+
+::: {#how-to-book .qa .callout-note collapse="true" title="How do I book, and what follow-up is available?"}
+Book a slot through [this Bookings link](https://bookings.cloud.microsoft/book/AIConsultationsEUI@EUI1.onmicrosoft.com/s/FuxpCCu3DkSMqxxbxt4Pug2?ismsaljsauthenabled). Consultations are open to EUI PhD researchers, last 20 minutes and focus on one research problem.
+
+:::
+
+::: {#referrals .qa .callout-note collapse="true" title="Who else can help?"}
+- **Your supervisor:** whether and how AI fits your research. The Guidelines ask you to talk to them first.
+- **EUI Library:** literature search, citing AI, and research data management. See the [Using AI FAQ](https://eui.libanswers.com/UsingAI) and the [Research Data Guide](https://eui.libguides.com/research-data-guide/plan/dmp).
+- **Data Protection Officer:** personal data in your project. Email [data_protection_officer@eui.eu](mailto:data_protection_officer@eui.eu) or see [Data Protection at the EUI](https://www.eui.eu/About/DataProtection).
+- **Ethics Committee:** ethics review of research involving human participants. See [Ethics and Integrity in Academic Research](https://www.eui.eu/en/services/academic-service/ethics-and-integrity-in-academic-research).
+- **ICT Service:** accounts, licenses and software installation. Get in touch via [EUI Helpdesk](https://www.eui.eu/Helpdesk).
+:::
+
+::: {.page-modified}
+Modified: 12 October 2026
+:::

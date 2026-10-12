@@ -1,0 +1,99 @@
+---
+title: "EUI-specific resources"
+description: "EUI guidance and services relevant to responsible AI use in research."
+---
+
+This page brings together EUI rules and resources on using AI in research. It is independently maintained; consult the linked EUI policies for their full wording.
+
+The [EUI Guidelines for the Responsible Use of AI for Research](https://www.eui.eu/Documents/ServicesAdmin/DeanOfStudies/ResearchEthics/2024.06-Ethics-Commitee-EUI-GENAI-DIGITAL.pdf) are the main source. In brief:
+
+- You remain responsible for everything you submit, including errors or plagiarism introduced by an AI tool (Section IV).
+- Personal or confidential data must not be entered into an AI tool unless doing so complies with the EUI Data Protection Policy and GDPR (Sections IV.D and IV.G).
+- AI-generated content must be acknowledged and referenced (Section IV.B).
+- Discuss plans to incorporate AI into your research with your supervisor (Section V).
+
+## Using AI responsibly at the EUI {#rules}
+
+In this section, <span class="qa-label qa-label--rule">EUI rule</span> indicates a rule from the EUI Guidelines or another EUI policy, with the section number; <span class="qa-label qa-label--check">Check locally</span> something that depends on your program, supervisor, publisher or funder; or <span class="qa-label qa-label--advice">Recommendation</span> practical advice.
+
+::: {#eui-rules .qa .callout-note collapse="true" title="Which EUI rules apply to me?"}
+<span class="qa-label qa-label--rule">EUI rule</span> The main document is the [EUI Guidelines for the Responsible Use of AI for Research](https://www.eui.eu/Documents/ServicesAdmin/DeanOfStudies/ResearchEthics/2024.06-Ethics-Commitee-EUI-GENAI-DIGITAL.pdf), approved by the Academic Council in May 2024. They cover PhD researchers, Master's students, research assistants, fellows and faculty (Section I). The EUI [Code of Ethics in Academic Conduct and Research](https://www.eui.eu/Documents/ServicesAdmin/DeanOfStudies/Code-of-Ethics-in-Academic-Conduct-and-Research.pdf) (2025) expects all members of the academic community to know and follow them. In short:
+
+- **You are responsible** for everything you submit, including errors or plagiarism introduced by an AI tool (Section IV).
+- **No AI detection.** The EUI does not use AI-detection software, because of its false positives, and relies on individual responsibility instead. Misuse is treated like plagiarism under the Code of Ethics (Sections IV, IV.B).
+- **Data-protection rules still apply.** The [EUI Data Protection Policy](https://www.eui.eu/Documents/AboutEUI/Organization/PresidentDecisionOnPrivacy.pdf) (President's Decision 10/2019) and GDPR principles apply to AI use as to anything else (Section IV.G).
+
+<span class="qa-label qa-label--check">Check locally</span> Your program, supervisor, course instructors, publishers and funders may set stricter rules. The Guidelines note that AI-generated content may not meet the requirements of a study program unless explicitly allowed (Section V).
+:::
+
+::: {#sensitive-data .qa .callout-note collapse="true" title="Can I upload interview transcripts, survey data, archival documents or unpublished work?"}
+**Not if they contain personal or confidential data, unless the tool meets the EUI's data-protection requirements. When in doubt, don't upload.**
+
+<span class="qa-label qa-label--rule">EUI rule</span> You must not enter confidential or personal data into an AI tool unless this complies with the GDPR and the EUI Data Protection Policy. The Guidelines single out AI transcription of interviews as needing particular care (Sections IV.D, IV.G). Personal data include not only names but anything that can identify a person, such as occupation, location, a voice or a photo. For any cloud service that processes personal data, the EUI [Guide on Good Data Protection Practice in Research](https://www.eui.eu/Documents/AboutEUI/Organization/DataProtection/DPO-Good-Data-Protection-Practice-DIGITAL.pdf) (section 6.3.1) requires that:
+
+- the provider processes the data only on the EUI's instructions
+- processing takes place within the EU
+- a binding contract guarantees both
+
+<span class="qa-label qa-label--advice">Recommendation</span> Before uploading anything, ask yourself:
+
+1. **Does it contain personal data?** Interview transcripts and recordings almost always do, even once names are removed. So do many survey and archival sources.
+2. **What have you promised?** Consent forms, ethics approvals, data-use agreements and archive terms may restrict where the data can go.
+3. **Where will it be processed, and will it be used for training?** Tools you sign up for with a personal account generally offer none of the guarantees above: there is no contract with the EUI, data may be processed outside the EU, and your inputs may be used to train future models unless you opt out.
+4. **Can you avoid the problem?** Work with anonymized extracts, invented examples with the same structure, or a model that runs entirely on your own computer.
+
+Your own unpublished work raises fewer legal issues. Other people's unpublished work, such as a manuscript you are reviewing, is confidential: don't upload it.
+
+For advice on a specific project, contact the EUI [Data Protection Officer](mailto:data_protection_officer@eui.eu). The Library's guide to [processing personal data](https://eui.libguides.com/research-data-guide/protection-ethics-copyright/processing-personal-data) is a good first read.
+:::
+
+::: {#thesis .qa .callout-note collapse="true" title="Can I use AI to help write or revise my thesis?"}
+**Yes for some tasks, no for others.**
+
+<span class="qa-label qa-label--rule">EUI rule</span>
+
+- **Allowed:** language and grammar correction of your own text, "including extensive re-writing and paraphrasing, provided the original text is their own". The Guidelines treat this like other grammar software, not as plagiarism (Section IV.E).
+- **Not allowed:** having AI "autonomously write substantial or integral parts" of a dissertation, paper or other academic work (Section IV.B).
+- **Must be acknowledged:** any new content produced by AI, including text, images, data and code (Section IV.B).
+- **Keep your work distinguishable.** You must be able to tell your own contribution apart from the AI's (Sections IV.B, V), and you should consult your supervisor before incorporating AI into your research (Section V).
+
+<span class="qa-label qa-label--advice">Recommendation</span> A rule of thumb: the arguments, interpretation and analysis must be yours, and AI can help you express them. If you could not explain and defend a passage without the tool, it is not yet your work. Keep your own drafts so you can show how the text developed.
+
+<span class="qa-label qa-label--check">Check locally</span> Agree with your supervisor on what is acceptable in your field and keep a written note of what you agreed.
+:::
+
+::: {#disclosure .qa .callout-note collapse="true" title="When and how should I disclose AI use?"}
+<span class="qa-label qa-label--rule">EUI rule</span> The Guidelines distinguish three cases:
+
+- **Inspiration.** AI that only inspired your own writing, such as brainstorming, need not be mentioned, but you should acknowledge it if you are asked to declare AI use (Section IV.A).
+- **Generated content.** Text, images, data or code generated by AI must be acknowledged and referenced (Section IV.B).
+- **Publications.** Follow the publisher's own AI policy (Section IV.F).
+
+<span class="qa-label qa-label--check">Check locally</span> Your program may require a specific declaration. The Library FAQ explains [how to declare AI use](https://eui.libanswers.com/UsingAI/faq/287430) in an "AI Acknowledgement": the tool and version, how you used it, why, and how you modified the output. It also explains [how to cite AI tools](https://eui.libanswers.com/UsingAI/faq/287441). Journals differ: most do not accept an AI tool as an author, and many ask for a statement in the methods section or the acknowledgements.
+
+<span class="qa-label qa-label--advice">Recommendation</span> An example acknowledgement:
+
+> *I used ChatGPT (GPT-5, OpenAI; accessed March 2026) to suggest language improvements to Chapters 2 and 4 and to help debug the R code for the analyses in Chapter 3. I reviewed and edited all suggestions; the arguments, analysis and interpretation are my own.*
+:::
+
+::: {#records .qa .callout-note collapse="true" title="What should I keep a record of?"}
+<span class="qa-label qa-label--rule">EUI rule</span> The Guidelines ask you to keep track of AI contributions and document how your research developed (Section IV.A). Where AI outputs cannot be replicated, record the tool and the prompts you used (Section IV.D).
+
+<span class="qa-label qa-label--advice">Recommendation</span> A simple log is enough: a text file or spreadsheet with one line per substantial use, recording:
+
+- the date
+- the tool and version
+- what you asked
+- what you used from the output
+- how you checked it
+
+When AI is part of your method, also keep the full prompts, settings and outputs with your replication materials. A log makes disclosure easy and protects you if questions come up later.
+:::
+
+## AI tools available through the EUI {#tools}
+
+Information on institutionally available tools and licences is being checked. For current account and software access, contact the [EUI Helpdesk](https://www.eui.eu/Helpdesk).
+
+::: {.page-modified}
+Modified: 12 October 2026
+:::

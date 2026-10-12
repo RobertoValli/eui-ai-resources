@@ -1,0 +1,116 @@
+---
+title: "Getting started with AI and LLMs"
+description: "Resources to help EUI researchers get started with AI tools and consider their use in research."
+---
+
+This page collects resources for anyone at the EUI who wants to get started with AI tools in their research, including if you have never used them before.
+
+## What is AI, what are AI-based tools? {#what-is-ai}
+
+::: {#two-ways .qa .callout-note collapse="true" title="What is the difference between AI as an assistant and AI as a research method?"}
+AI can be used *as an assistant* (debugging your R code, summarizing a paper you then read, polishing your own prose) just like using any other tool, or *as part of your research method* (having a model classify political speeches, code interview transcripts or extract variables from documents). In either case, it is your responsibility to check the output and remain responsible for its output. Usual good practices in research apply (is the output valid, are its errors systematic, and can someone else reproduce it?). See [Using AI as a method](#ai-as-method).
+:::
+
+::: {#what-is-genai .qa .callout-note collapse="true" title="What is generative AI, in plain terms?"}
+Tools such as ChatGPT, Claude, Gemini and Microsoft Copilot are built on *large language models*: statistical models trained on enormous amounts of text to predict which text is likely to come next. When you ask a question, the model generates an answer piece by piece, based on patterns learned in training and on whatever you give it: your prompt, uploaded files and sometimes web search results.
+
+The recent advances in the capabilities of LLM tools derives from the integration of layers on top of this basic linguistic "understanding." These layers are calibrated to satisfy users and enabled the use of LLMs as agents who can execute tasks on machines. For an excellent introduction to what LLMs are and how they work, [watch this lecture by Elliott Ash](https://www.aeaweb.org/webcasts/2026/developments-in-language-models).
+
+This explains both what these tools do well and how they typically fail. They have learned the patterns of a huge range of writing, so they are very good at producing fluent, plausible text and code. But plausible is not the same as true. The model has no built-in check that a statement or a reference is correct, so it can give confident, well-written answers that are wrong. Tools that search the web or work from documents you provide make this less frequent, but do not eliminate it.
+
+Careful use of AI tools can, however, partially work around these limitations, by including tests, cross-evaluations of different AI tools, and careful prompt engineering.
+:::
+
+::: {#generative-and-agentic .qa .callout-note collapse="true" title="What are generative and agentic AI?"}
+Even though they share much of the underlying structure, generative AI creates content in response to a prompt, while agentic AI takes independent actions to achieve a larger, multi-step goal.
+
+- **Generative AI:** Gen-AI use LLMs to process inputs such as prompts text, images, video and produce outputs that respond to the prompts. Interactions with generative AI typically take the form of a conversation or chat.
+Examples of generative AI:
+    - Gemini
+    - OpenAI ChatGPT
+    - NotebookLLM
+
+- **Agentic AI:** AI agents are, as the name implies, LLM-based software that can execute actions on a machine (typically your computer) based on your prompt. Once granted permissions, it can create and delete folders and files, use other software via command line. Most importantly, it can read its own outputs, evaluate them, and iteratively improve its actions until a goal is achieved.
+Examples of agentic AI:
+    - Claude Code
+    - Cursor
+    - OpenAI Codex
+
+:::
+
+## What AI can and can't do {#basics}
+
+::: {#use-cases .qa .callout-note collapse="true" title="What can AI help me do as a social scientist?"}
+Common uses, roughly from lower to higher stakes:
+
+- **Understanding material:** explaining a difficult method or concept, describing a complex repository or source code, getting the gist of a source in a language you don't read well.
+- **Code and data:** writing and debugging R, Stata or Python code; cleaning and reshaping data; explaining error messages.
+- **Writing:** improving the language of your own drafts, suggesting structure, drafting routine texts that you then rewrite.
+- **Finding literature:** leads that you then verify in the Library's databases.
+- **Transcription and documents:** transcribing recordings, extracting text or tables from scanned documents. Read [the rules on sensitive data](eui-resources.qmd#sensitive-data) first.
+- **Research method:** classifying or coding large amounts of text, extracting information from documents. See [Using AI as a method](#ai-as-method).
+
+The EUI Guidelines also recognize that these tools can support inclusion, for example for researchers writing in a second language or with dyslexia (Section III).
+:::
+
+::: {#limitations .qa .callout-note collapse="true" title="What are its main limitations?"}
+- **Fabrication:** invented references, quotations, statistics or facts, presented as confidently as true ones. Never cite a source you haven't found and read yourself.
+- **Unsupported claims:** summaries can add points that aren't in the text, or drop important caveats.
+- **Plausible but wrong code and analysis:** code that runs without errors can still do the wrong thing, for example by silently dropping observations in a merge.
+- **Bias:** models reflect their training data, which over-represents some languages, regions and viewpoints. The EUI Guidelines point in particular to biases favoring gender and racial majorities (Section IV.C).
+- **Uneven performance:** quality drops for less widely used languages, historical texts, specialized topics and recent events.
+- **Inconsistency:** the same prompt can give different answers, and providers update their models without notice. This matters for reproducibility.
+:::
+
+::: {#worth-it .qa .callout-note collapse="true" title="How do I decide whether AI is worth using for a task?"}
+Ask five questions:
+
+1. **Do I know how the output should look like?** AI can be very efficient in implementing things that you know how to do and can describe precisely. It performs worst on vague and open-ended tasks.
+2. **Can I check the output?** AI is most useful when checking an answer is much easier than producing it: code you can test, a translation you can read, a summary of a paper you know.
+3. **How good are AI tools at this task?** LLM-based tools are in continuous evolution, and their performance varies quite a bit across different tasks. Check the state of the art before using a tool: for instance, [this website collects published evaluations of LLM performance](http://what-llms-can-not-do.github.io) across tasks.
+4. **What would a mistake cost?** A clumsy sentence in an email is harmless. A fabricated citation in your thesis, or a misclassified variable in your main analysis, is not.
+5. **Does checking take longer than doing it myself?** If you have to verify every line anyway, the tool may not save you any time.
+
+A task that passes these tests is a good candidate. If you are unsure, try the tool on a small sample where you already know the right answer.
+:::
+
+::: {#ai-as-method .qa .callout-note collapse="true" title="What extra care is needed when AI is part of my research method?"}
+When a model produces your data (classifying texts, coding interviews, extracting variables), treat it as a measurement instrument and document it like one.
+
+- **Validate it against human judgment.** Hand-code a random sample and report how often the model agrees, as you would for a second human coder.
+- **Look for systematic error, not just average accuracy.** Does the model do worse for some groups, languages or time periods? Errors that correlate with your variables of interest can bias your estimates.
+- **Make it reproducible.** Record the exact model and version, the full prompt, settings such as temperature, and the date. Prefer models with fixed versions, or open-weight models you can run yourself, because hosted models change over time. The EUI Guidelines ask you to document the tool and prompts where outputs cannot be replicated (Section IV.D).
+- **Check the data rules** before sending research material to any tool: see [Can I upload interview transcripts…?](eui-resources.qmd#sensitive-data)
+- **Talk to your supervisor.** The EUI Guidelines ask you to consult them before incorporating AI into your research (Section V).
+:::
+
+## Getting started {#resources}
+
+::: {#prompting .qa .callout-note collapse="true" title="How can I get more useful answers from an AI tool?"}
+- **Give context:** who you are, what the task is for and what you already know. "I'm a political science PhD researcher estimating a panel regression in R…" works better than a bare question.
+- **Say what you want back:** format, length, level of detail, what to leave out.
+- **Provide the material:** paste the code, the error message or the passage (if you are allowed to share it) rather than describing it.
+- **Iterate:** treat the first answer as a draft. Ask follow-up questions, point out errors, ask for alternatives.
+- **Ask about uncertainty:** "Which parts of this are you least sure about?" or "What would a critical reviewer say?"
+- **Start a new conversation** when you switch tasks, so earlier context doesn't carry over.
+:::
+
+::: {#verification .qa .callout-note collapse="true" title="How do I check AI-generated text, references and code?"}
+- **References:** look up every source in the Library catalogue or Google Scholar, open it, and confirm it says what the AI claims. Fabricated references often look entirely plausible.
+- **Facts and summaries:** compare them with the original. Look for claims that aren't in the source and for caveats that went missing.
+- **Code:** run it on a small example where you know the right answer, check the number of observations at each step, and ask for an explanation of any line you don't understand.
+- **Your own text after AI editing:** reread it for changes in meaning, not just style. "Improved" sentences can shift or overstate your argument.
+
+The EUI Guidelines require you to verify AI output and to look for sources beyond those an AI tool suggests (Section IV.C).
+:::
+
+::: {#further-reading .qa .callout-note collapse="true" title="Where can I learn more?"}
+- [**EUI Library: Using AI FAQ**](https://eui.libanswers.com/UsingAI): short answers on declaring and citing AI use, literature search and language correction. For everyone at the EUI.
+- [**EUI Guidelines for the Responsible Use of AI for Research**](https://www.eui.eu/Documents/ServicesAdmin/DeanOfStudies/ResearchEthics/2024.06-Ethics-Commitee-EUI-GENAI-DIGITAL.pdf): the official rules, about ten pages. For everyone at the EUI.
+- [**EUI Guide on Good Data Protection Practice in Research**](https://www.eui.eu/Documents/AboutEUI/Organization/DataProtection/DPO-Good-Data-Protection-Practice-DIGITAL.pdf): what counts as personal data, anonymization and cloud services. For anyone working with data about people.
+- [**European Commission: Living guidelines on the responsible use of generative AI in research**](https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en): the European reference framework, updated regularly. For the wider picture, including what funders expect.
+:::
+
+::: {.page-modified}
+Modified: 12 October 2026
+:::
