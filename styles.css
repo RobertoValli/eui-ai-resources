@@ -45,6 +45,14 @@ body {
   font-weight: 650;
 }
 
+.qa .callout-icon-container {
+  display: none;
+}
+
+.qa .callout-title-container {
+  font-size: 1.1rem;
+}
+
 .qa .callout-header:focus-visible {
   outline: 2px solid var(--eui-coral);
   outline-offset: 2px;

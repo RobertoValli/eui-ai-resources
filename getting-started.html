@@ -282,6 +282,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./getting-started.html" aria-current="page"> 
 <span class="menu-text">Getting started</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./guides/index.html"> 
+<span class="menu-text">Practical guides</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -365,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Tools such as ChatGPT, Claude, Gemini and Microsoft Copilot are built on <em>large language models</em>: statistical models trained on enormous amounts of text to predict which text is likely to come next. When you ask a question, the model generates an answer piece by piece, based on patterns learned in training and on whatever you give it: your prompt, uploaded files and sometimes web search results.</p>
+<p>Tools such as ChatGPT, Claude, Gemini and Microsoft Copilot are built on <em>large language models</em>: statistical models trained on enormous amounts of text to predict which text is likely to come next. (Read <a href="https://www.greaterwrong.com/posts/AzRRPDNmeEoJdSiib/implications-of-predicting-the-next-token">this post</a> for a take on why this constitutes intelligence.) When you ask a question, the model generates an answer piece by piece, based on patterns learned in training and on whatever additional context you give it: your prompt, uploaded files, and sometimes web search results.</p>
 <p>The recent advances in the capabilities of LLM tools derives from the integration of layers on top of this basic linguistic “understanding.” These layers are calibrated to satisfy users and enabled the use of LLMs as agents who can execute tasks on machines. For an excellent introduction to what LLMs are and how they work, <a href="https://www.aeaweb.org/webcasts/2026/developments-in-language-models">watch this lecture by Elliott Ash</a>.</p>
 <p>This explains both what these tools do well and how they typically fail. They have learned the patterns of a huge range of writing, so they are very good at producing fluent, plausible text and code. But plausible is not the same as true. The model has no built-in check that a statement or a reference is correct, so it can give confident, well-written answers that are wrong. Tools that search the web or work from documents you provide make this less frequent, but do not eliminate it.</p>
 <p>Careful use of AI tools can, however, partially work around these limitations, by including tests, cross-evaluations of different AI tools, and careful prompt engineering.</p>
@@ -422,7 +426,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Understanding material:</strong> explaining a difficult method or concept, describing a complex repository or source code, getting the gist of a source in a language you don’t read well.</li>
 <li><strong>Code and data:</strong> writing and debugging R, Stata or Python code; cleaning and reshaping data; explaining error messages.</li>
 <li><strong>Writing:</strong> improving the language of your own drafts, suggesting structure, drafting routine texts that you then rewrite.</li>
-<li><strong>Finding literature:</strong> leads that you then verify in the Library’s databases.</li>
+<li><strong>Finding literature:</strong> leads that you then verify in the Library’s databases. See the page dedicated to <a href="./guides/literature-search.html">AI tools for literature search and summary</a>.</li>
 <li><strong>Transcription and documents:</strong> transcribing recordings, extracting text or tables from scanned documents. Read <a href="./eui-resources.html#sensitive-data">the rules on sensitive data</a> first.</li>
 <li><strong>Research method:</strong> classifying or coding large amounts of text, extracting information from documents. See <a href="#ai-as-method">Using AI as a method</a>.</li>
 </ul>
@@ -516,12 +520,12 @@ ul.task-list li input[type="checkbox"] {
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li><strong>Give context:</strong> who you are, what the task is for and what you already know. “I’m a political science PhD researcher estimating a panel regression in R…” works better than a bare question.</li>
+<li><strong>Provide context:</strong> who you are, what the task is for, and what you already know. “I’m a political science PhD researcher estimating a panel regression in R…” works better than a bare question.</li>
 <li><strong>Say what you want back:</strong> format, length, level of detail, what to leave out.</li>
 <li><strong>Provide the material:</strong> paste the code, the error message or the passage (if you are allowed to share it) rather than describing it.</li>
-<li><strong>Iterate:</strong> treat the first answer as a draft. Ask follow-up questions, point out errors, ask for alternatives.</li>
+<li><strong>Iterate:</strong> treat the first answer as a draft. Ask follow-up questions, point out errors, ask for alternatives. With AI agents you can instruct to iterate and self-correct until a certain objective is reached.</li>
 <li><strong>Ask about uncertainty:</strong> “Which parts of this are you least sure about?” or “What would a critical reviewer say?”</li>
-<li><strong>Start a new conversation</strong> when you switch tasks, so earlier context doesn’t carry over.</li>
+<li><strong>Start a new conversation</strong> when you switch tasks, so earlier context doesn’t carry over. Reducing context also helps reducing your token consumption.</li>
 </ul>
 </div>
 </div>
@@ -570,7 +574,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="page-modified">
-<p>Modified: 12 October 2026</p>
+<p>Modified: 8 November 2026</p>
 </div>
 
 
@@ -1025,8 +1029,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Independently maintained by the EUI Part-time Assistant Professors of AI.</p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="./index.html#about-this-resource">About this resource</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/RobertoValli/eui-ai-resources/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./index.html#about-this-resource">
+<p>About this resource</p>
+</a>
+  </li>  
+</ul>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/RobertoValli/eui-ai-resources/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
 </div>
