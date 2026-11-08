@@ -1,0 +1,49 @@
+---
+title: "AI tools for literature search and summary"
+description: "Advice on finding, screening and summarising research literature with AI tools."
+---
+
+Literature reviews are important elements of any research project. Their importance lies as much in what we learn by reading previous work, as in the ability to identify what is new in our own research. As Michael Nelson suggests in [this guide](https://politicalscienceguide.com/what-is-research/the-literature-review/), a review should describe a "personal, deliberated judgement" on a subject (emphasis on personal). For general advice on literature reviews see [this article on P&S](https://doi.org/10.1017/S1049096506060264).
+
+Yet we might still want to accelerate or even automate some parts of literature search, organization, and summary. AI tools can help you in these tasks, although their output cannot ensure that a given reference exists, that a paper supports a certain claim, or that you have found the relevant literature. Use these tools alongside the Library's databases and your own reading, not as a replacement.
+
+## Distinguish the tasks
+
+- **Discovery:** finding papers that might be relevant to a question.
+- **Screening:** deciding which of the papers you have found deserve closer reading.
+- **Summary:** extracting the question, method, evidence and findings from a paper you have obtained. Check the summary against the paper, including its qualifications and limitations.
+- **Synthesis:** comparing findings across papers. Return to the original texts before drawing conclusions or writing a literature review.
+
+## Available tools
+
+Tools such as [Web of Science](https://www.webofscience.com/wos/woscc/smart-search) or [Google Scholar](https://scholar.google.com/) have been available for a while. They enable systematic keyword searches with the ability to filter by journal, year, and other metadata.
+
+Recently, [Google Scholar Labs](https://scholar.google.com/scholar_labs/search) has introduced lists of queries in response to articulated prompts, as opposed to simple keyword searches. It produces much more contained lists of potential readings, reducing the time spent in screening.
+
+A substantially more complicated task is what [Consensus](https://consensus.app/) sets out to do. It produces complex summaries of literature based on your question. It does so by accessing the text of articles to which your university affiliation grants access to. It produces statistics of the different conclusions (what percentage of articles support a conclusion?), as well as brief narrative summaries and tables with the different findings. In principle, this promises a much more thorough engagement with the content of articles.
+
+A final category is that of tools that help improve or elaborate on existing research ideas or framing based on LLM advice grounded in existing literature (see [this paper](https://doi.org/10.1145/3706598.3714057) for example). These applications are of course much more risky because these areas are where human taste is most important for the success of projects.
+
+Something worth noting is that any such tool can give the misleading impression of understanding a complex literature within a few hours. It is nevertheless crucial to take the time to check that the sources exist, and to engage personally with their content.
+
+## A practical workflow
+
+1. **Start with your research question and search terms.** Search relevant Library databases as well as any AI-assisted discovery tool. Keep a record of where and when you searched.
+2. **Verify each candidate source.** Find its bibliographic record and, if relevant, the full text. Check authors, title, publication details and identifiers before adding it to your references.
+3. **Read before relying on a summary.** Ask a tool to identify a paper's question, methods and main findings if useful, but compare its answer with the paper itself. Pay particular attention to claims that sound more certain or general than the authors' conclusions.
+4. **Check what is missing.** Follow references, citation trails and field-specific sources. AI discovery tools may not cover your topic, language, period or type of publication evenly.
+5. **Document consequential use.** If AI materially shaped which sources you considered or how you synthesised them, record the tool, date, task and checks you performed. Follow any disclosure requirements that apply to your work.
+
+## Before using a tool with a paper
+
+Check whether you are permitted to upload the document and whether it contains confidential or personal information. This matters especially for unpublished manuscripts, material you are reviewing, interview transcripts and restricted archive documents. The [EUI-specific guidance on sensitive data](../eui-resources.qmd#sensitive-data) is a starting point; ask the relevant EUI service when the situation is unclear.
+
+When assessing a literature tool, look at its coverage of your field and languages, whether it shows the source behind each claim, whether you can export and verify references, and what its terms say about uploaded material. These features can change, so test the tool on papers you already know before relying on it for a new topic.
+
+## EUI guidance
+
+The [EUI Library's FAQ on finding and reviewing literature with AI](https://eui.libanswers.com/UsingAI/faq/287444) says to verify suggested sources and look independently for work beyond them. The [EUI Guidelines for the Responsible Use of AI for Research](https://www.eui.eu/Documents/ServicesAdmin/DeanOfStudies/ResearchEthics/2024.06-Ethics-Commitee-EUI-GENAI-DIGITAL.pdf) discuss fabricated references and bias in literature review and sourcing (Section IV.C). Consult those sources for the full guidance.
+
+::: {.page-modified}
+Modified: 8 November 2026
+:::

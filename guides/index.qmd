@@ -1,0 +1,14 @@
+---
+title: "Practical guides"
+description: "Task-focused guidance for using AI in research at the EUI."
+---
+
+These guides take a research task as their starting point. They complement the [introduction to AI and LLMs](../getting-started.qmd) and the [EUI-specific resources](../eui-resources.qmd).
+
+## Available guides
+
+- [**AI tools for literature search and summary**](literature-search.qmd): finding and screening possible sources, working with summaries, and checking claims against the original research.
+
+::: {.page-modified}
+Modified: 1 November 2026
+:::

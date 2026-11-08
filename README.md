@@ -22,12 +22,14 @@ Generated files are written to `_site/` and are not committed to the source bran
 
 ## Editing
 
-The four public pages are:
+The main public pages are:
 
 - `index.qmd`: welcome and navigation
 - `consultations.qmd`: consultation information
 - `eui-resources.qmd`: EUI-specific rules and services
 - `getting-started.qmd`: introductory and methodological guidance
+- `guides/index.qmd`: entry point for task-focused guides
+- `guides/literature-search.qmd`: AI-assisted literature search and summary
 
 Site-wide configuration is in `_quarto.yml`; presentation rules are in `styles.css`.
 

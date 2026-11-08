@@ -3,6 +3,7 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+    - "guides/*.qmd"
 
 website:
   title: "AI Resources for EUI Researchers"
@@ -30,6 +31,8 @@ website:
         href: eui-resources.qmd
       - text: Getting started
         href: getting-started.qmd
+      - text: Practical guides
+        href: guides/index.qmd
     tools:
       - icon: github
         href: "https://github.com/RobertoValli/eui-ai-resources"
@@ -37,8 +40,9 @@ website:
   page-footer:
     left: |
       Independently maintained by the EUI Part-time Assistant Professors of AI.
-    center: |
-      [About this resource](index.qmd#about-this-resource)
+    center:
+      - text: About this resource
+        href: index.qmd#about-this-resource
     right: |
       Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 

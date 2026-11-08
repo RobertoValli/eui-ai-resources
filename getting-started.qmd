@@ -12,7 +12,7 @@ AI can be used *as an assistant* (debugging your R code, summarizing a paper you
 :::
 
 ::: {#what-is-genai .qa .callout-note collapse="true" title="What is generative AI, in plain terms?"}
-Tools such as ChatGPT, Claude, Gemini and Microsoft Copilot are built on *large language models*: statistical models trained on enormous amounts of text to predict which text is likely to come next. When you ask a question, the model generates an answer piece by piece, based on patterns learned in training and on whatever you give it: your prompt, uploaded files and sometimes web search results.
+Tools such as ChatGPT, Claude, Gemini and Microsoft Copilot are built on *large language models*: statistical models trained on enormous amounts of text to predict which text is likely to come next. (Read [this post](https://www.greaterwrong.com/posts/AzRRPDNmeEoJdSiib/implications-of-predicting-the-next-token) for a take on why this constitutes intelligence.) When you ask a question, the model generates an answer piece by piece, based on patterns learned in training and on whatever additional context you give it: your prompt, uploaded files, and sometimes web search results.
 
 The recent advances in the capabilities of LLM tools derives from the integration of layers on top of this basic linguistic "understanding." These layers are calibrated to satisfy users and enabled the use of LLMs as agents who can execute tasks on machines. For an excellent introduction to what LLMs are and how they work, [watch this lecture by Elliott Ash](https://www.aeaweb.org/webcasts/2026/developments-in-language-models).
 
@@ -46,7 +46,7 @@ Common uses, roughly from lower to higher stakes:
 - **Understanding material:** explaining a difficult method or concept, describing a complex repository or source code, getting the gist of a source in a language you don't read well.
 - **Code and data:** writing and debugging R, Stata or Python code; cleaning and reshaping data; explaining error messages.
 - **Writing:** improving the language of your own drafts, suggesting structure, drafting routine texts that you then rewrite.
-- **Finding literature:** leads that you then verify in the Library's databases.
+- **Finding literature:** leads that you then verify in the Library's databases. See the page dedicated to [AI tools for literature search and summary](guides/literature-search.qmd).
 - **Transcription and documents:** transcribing recordings, extracting text or tables from scanned documents. Read [the rules on sensitive data](eui-resources.qmd#sensitive-data) first.
 - **Research method:** classifying or coding large amounts of text, extracting information from documents. See [Using AI as a method](#ai-as-method).
 
@@ -87,12 +87,12 @@ When a model produces your data (classifying texts, coding interviews, extractin
 ## Getting started {#resources}
 
 ::: {#prompting .qa .callout-note collapse="true" title="How can I get more useful answers from an AI tool?"}
-- **Give context:** who you are, what the task is for and what you already know. "I'm a political science PhD researcher estimating a panel regression in R…" works better than a bare question.
+- **Provide context:** who you are, what the task is for, and what you already know. "I'm a political science PhD researcher estimating a panel regression in R…" works better than a bare question.
 - **Say what you want back:** format, length, level of detail, what to leave out.
 - **Provide the material:** paste the code, the error message or the passage (if you are allowed to share it) rather than describing it.
-- **Iterate:** treat the first answer as a draft. Ask follow-up questions, point out errors, ask for alternatives.
+- **Iterate:** treat the first answer as a draft. Ask follow-up questions, point out errors, ask for alternatives. With AI agents you can instruct to iterate and self-correct until a certain objective is reached.
 - **Ask about uncertainty:** "Which parts of this are you least sure about?" or "What would a critical reviewer say?"
-- **Start a new conversation** when you switch tasks, so earlier context doesn't carry over.
+- **Start a new conversation** when you switch tasks, so earlier context doesn't carry over. Reducing context also helps reducing your token consumption.
 :::
 
 ::: {#verification .qa .callout-note collapse="true" title="How do I check AI-generated text, references and code?"}
@@ -112,5 +112,5 @@ The EUI Guidelines require you to verify AI output and to look for sources beyon
 :::
 
 ::: {.page-modified}
-Modified: 12 October 2026
+Modified: 8 November 2026
 :::

@@ -3,7 +3,7 @@ title: "AI consultations"
 description: "This page contains information on what EUI researchers can bring to an AI consultation, how to prepare, and how to book."
 ---
 
-AI consultations are open to EUI PhD researchers. We spend 20 minutes on one research problem, in person or on Teams.
+AI consultations are open to EUI PhD researchers. We spend 30 minutes on one research problem, in person or on Teams.
 
 [Book a consultation](https://bookings.cloud.microsoft/book/AIConsultationsEUI@EUI1.onmicrosoft.com/s/FuxpCCu3DkSMqxxbxt4Pug2?ismsaljsauthenabled){.btn .btn-primary}
 
@@ -21,7 +21,7 @@ Consultations are open to EUI PhD researchers. They complement your supervisor a
 :::
 
 ::: {#what-to-expect .qa .callout-note collapse="true" title="What happens in a consultation?"}
-We spend 20 minutes on one research problem, either in person or on Teams. 
+We spend 30 minutes on one research problem, either in person or on Teams.
 
 We will ask about your project, what you're trying to achieve and what data you're working with. Then we work out an approach, try it out where possible, and agree on concrete next steps.
 
@@ -59,7 +59,7 @@ Please **describe your data, but don't upload or send it**. If useful, bring a s
 :::
 
 ::: {#how-to-book .qa .callout-note collapse="true" title="How do I book, and what follow-up is available?"}
-Book a slot through [this Bookings link](https://bookings.cloud.microsoft/book/AIConsultationsEUI@EUI1.onmicrosoft.com/s/FuxpCCu3DkSMqxxbxt4Pug2?ismsaljsauthenabled). Consultations are open to EUI PhD researchers, last 20 minutes and focus on one research problem.
+Book a slot through [this Bookings link](https://bookings.cloud.microsoft/book/AIConsultationsEUI@EUI1.onmicrosoft.com/s/FuxpCCu3DkSMqxxbxt4Pug2?ismsaljsauthenabled). Consultations are open to EUI PhD researchers, last 30 minutes and focus on one research problem.
 
 :::
 
@@ -72,5 +72,5 @@ Book a slot through [this Bookings link](https://bookings.cloud.microsoft/book/A
 :::
 
 ::: {.page-modified}
-Modified: 12 October 2026
+Modified: 8 November 2026
 :::
