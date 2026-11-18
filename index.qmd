@@ -1,6 +1,6 @@
 ---
-title: "AI Resources for EUI Researchers"
-description: "A practical starting point for EUI researchers who want to use AI thoughtfully, responsibly, and effectively."
+title: "AI Resources for Doctoral Researchers"
+description: "An unofficial, practical starting point for EUI researchers who want to use AI thoughtfully, responsibly, and effectively."
 page-layout: full
 toc: false
 title-block-style: none
@@ -8,9 +8,9 @@ title-block-style: none
 
 ::: {.hero .column-screen}
 ::: {.hero-inner}
-# AI Resources for EUI Researchers
+# AI Resources for Doctoral Researchers
 
-A practical starting point for using artificial intelligence thoughtfully, responsibly, and effectively in research.
+This site has been created to help EUI researchers navigating the opportunities and risks of AI-based social science research. It aims to be a practical starting point for using artificial intelligence thoughtfully, responsibly, and effectively in research. Please note that the website's content exclusively reflect the opinions of the maintainers, and not those of EUI as a whole.
 
 ::: {.hero-actions}
 [Book a consultation](consultations.qmd){.btn .btn-primary .btn-lg}
@@ -26,6 +26,8 @@ A practical starting point for using artificial intelligence thoughtfully, respo
 
 Artificial intelligence is reshaping how scholars learn and conduct their research. The EUI's Department of Social and Political Sciences has sponsored two Part-time Assistant Professor positions to help the community adopt AI responsibly and effectively.
 
+During the 26-27 academic year, [Filip Olsson](https://www.eui.eu/people?id=filip-olsson) and [Roberto Valli](https://www.robertovalli.com/) will support students with a course on [AI for social science](https://www.eui.eu/DepartmentsAndCentres/academic-catalogue/Course-detail?course_id=SPS-RE-AI-OLS-26) and biweekly AI consultations.
+
 On this website, you can book a consultation about your research project and find guidance and resources on AI. If you feel something is missing, please leave an issue on [GitHub](https://github.com/RobertoValli/eui-ai-resources/issues/new).
 
 ::: {.path-grid}
@@ -34,7 +36,7 @@ On this website, you can book a consultation about your research project and fin
 
 ### [Prepare for a consultation](consultations.qmd)
 
-Find out what we can help with, what to bring, and how to book a one-to-one conversation about your research.
+Find out what consultations are, how to prepare, and how to book a one-to-one conversation about your research.
 :::
 
 ::: {.path-card}
@@ -42,7 +44,7 @@ Find out what we can help with, what to bring, and how to book a one-to-one conv
 
 ### [Check EUI-specific guidance](eui-resources.qmd)
 
-Start with EUI rules and resources on responsible use, data protection, disclosure, and research integrity.
+Check out EUI rules and resources on responsible use, data protection, disclosure, and research integrity.
 :::
 
 ::: {.path-card}
@@ -50,7 +52,7 @@ Start with EUI rules and resources on responsible use, data protection, disclosu
 
 ### [Understand AI and LLMs](getting-started.qmd)
 
-Learn what these tools do, where they are useful, how they fail, and how to assess their output.
+Some basic info on what AI tools do, where they are useful, how they fail, and how to assess their output.
 :::
 
 ::: {.path-card}
@@ -100,5 +102,5 @@ When AI contributes to research outputs or methods, keep enough information to e
 
 This website is maintained independently by [Filip Olsson](https://www.eui.eu/people?id=filip-olsson) and [Roberto Valli](https://www.eui.eu/people?id=roberto-valli), the EUI Part-time Assistant Professors of AI. It is intended for EUI researchers and brings together practical advice, consultation information, and links to authoritative EUI sources.
 
-The site complements—not replaces—formal EUI policies, your supervisor's guidance, or advice from the relevant EUI services. Where a statement summarises an institutional rule, the source is identified so that you can consult it directly.
+The site is meant to complement, rather than replace or represent, formal EUI policies, your supervisor's guidance, or advice from the relevant EUI services. Where a statement summarizes an institutional rule, the source is identified so that you can consult it directly.
 :::

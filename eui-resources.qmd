@@ -3,7 +3,7 @@ title: "EUI-specific resources"
 description: "EUI guidance and services relevant to responsible AI use in research."
 ---
 
-This page brings together EUI rules and resources on using AI in research. It is independently maintained; consult the linked EUI policies for their full wording.
+This page brings together EUI rules and resources on using AI in research. It is independently maintained and as such does not constitute official EUI policy. Please consult the linked EUI policies for their full wording.
 
 The [EUI Guidelines for the Responsible Use of AI for Research](https://www.eui.eu/Documents/ServicesAdmin/DeanOfStudies/ResearchEthics/2024.06-Ethics-Commitee-EUI-GENAI-DIGITAL.pdf) are the main source. In brief:
 

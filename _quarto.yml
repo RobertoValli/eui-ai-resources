@@ -9,7 +9,6 @@ website:
   title: "AI Resources for EUI Researchers"
   description: "Practical guidance on using AI in research at the European University Institute."
   site-url: "https://robertovalli.github.io/eui-ai-resources/"
-  favicon: assets/eui-mark.svg
   open-graph: true
   search:
     location: navbar
@@ -18,8 +17,6 @@ website:
   repo-url: "https://github.com/RobertoValli/eui-ai-resources"
   repo-actions: [issue]
   navbar:
-    logo: assets/eui-mark.svg
-    logo-alt: "European University Institute"
     title: "AI Resources"
     pinned: true
     left:

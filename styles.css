@@ -303,9 +303,8 @@ body.quarto-dark .qa-label--advice {
   text-decoration: none;
 }
 
-.path-card h3 a::after {
-  content: " →";
-  color: var(--eui-coral);
+.path-card h3 .anchorjs-link {
+  display: none;
 }
 
 .path-card p {
