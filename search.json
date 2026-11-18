@@ -2,23 +2,23 @@
   {
     "objectID": "index.html#where-would-you-like-to-begin",
     "href": "index.html#where-would-you-like-to-begin",
-    "title": "AI Resources for EUI Researchers",
+    "title": "AI Resources for Doctoral Researchers",
     "section": "Where would you like to begin?",
-    "text": "Where would you like to begin?\nArtificial intelligence is reshaping how scholars learn and conduct their research. The EUI’s Department of Social and Political Sciences has sponsored two Part-time Assistant Professor positions to help the community adopt AI responsibly and effectively.\nOn this website, you can book a consultation about your research project and find guidance and resources on AI. If you feel something is missing, please leave an issue on GitHub.\n\n\n01\n\nPrepare for a consultation\nFind out what we can help with, what to bring, and how to book a one-to-one conversation about your research.\n\n\n\n02\n\nCheck EUI-specific guidance\nStart with EUI rules and resources on responsible use, data protection, disclosure, and research integrity.\n\n\n\n03\n\nUnderstand AI and LLMs\nLearn what these tools do, where they are useful, how they fail, and how to assess their output.\n\n\n\n04\n\nUse AI in a research workflow\nThink through validation, reproducibility, documentation, and the additional care required when AI becomes part of a method."
+    "text": "Where would you like to begin?\nArtificial intelligence is reshaping how scholars learn and conduct their research. The EUI’s Department of Social and Political Sciences has sponsored two Part-time Assistant Professor positions to help the community adopt AI responsibly and effectively.\nDuring the 26-27 academic year, Filip Olsson and Roberto Valli will support students with a course on AI for social science and biweekly AI consultations.\nOn this website, you can book a consultation about your research project and find guidance and resources on AI. If you feel something is missing, please leave an issue on GitHub.\n\n\n01\n\nPrepare for a consultation\nFind out what consultations are, how to prepare, and how to book a one-to-one conversation about your research.\n\n\n\n02\n\nCheck EUI-specific guidance\nCheck out EUI rules and resources on responsible use, data protection, disclosure, and research integrity.\n\n\n\n03\n\nUnderstand AI and LLMs\nSome basic info on what AI tools do, where they are useful, how they fail, and how to assess their output.\n\n\n\n04\n\nUse AI in a research workflow\nThink through validation, reproducibility, documentation, and the additional care required when AI becomes part of a method."
   },
   {
     "objectID": "index.html#four-principles-to-carry-with-you",
     "href": "index.html#four-principles-to-carry-with-you",
-    "title": "AI Resources for EUI Researchers",
+    "title": "AI Resources for Doctoral Researchers",
     "section": "Four principles to carry with you",
     "text": "Four principles to carry with you\n\n\nYou remain responsible\nAI can assist with a task, but responsibility for what you submit, publish, or use in an analysis remains yours.\n\n\nProtect sensitive material\nCheck confidentiality, consent, data-protection, and service-provider conditions before sharing research material with a tool.\n\n\nVerify the output\nFluent answers can still be wrong. Check factual claims, references, summaries, code, and transformations against appropriate sources or tests.\n\n\nDocument consequential uses\nWhen AI contributes to research outputs or methods, keep enough information to explain, assess, and where possible reproduce what you did."
   },
   {
     "objectID": "index.html#about-this-resource",
     "href": "index.html#about-this-resource",
-    "title": "AI Resources for EUI Researchers",
+    "title": "AI Resources for Doctoral Researchers",
     "section": "About this resource",
-    "text": "About this resource\nThis website is maintained independently by Filip Olsson and Roberto Valli, the EUI Part-time Assistant Professors of AI. It is intended for EUI researchers and brings together practical advice, consultation information, and links to authoritative EUI sources.\nThe site complements—not replaces—formal EUI policies, your supervisor’s guidance, or advice from the relevant EUI services. Where a statement summarises an institutional rule, the source is identified so that you can consult it directly."
+    "text": "About this resource\nThis website is maintained independently by Filip Olsson and Roberto Valli, the EUI Part-time Assistant Professors of AI. It is intended for EUI researchers and brings together practical advice, consultation information, and links to authoritative EUI sources.\nThe site is meant to complement, rather than replace or represent, formal EUI policies, your supervisor’s guidance, or advice from the relevant EUI services. Where a statement summarizes an institutional rule, the source is identified so that you can consult it directly."
   },
   {
     "objectID": "guides/index.html",
@@ -39,7 +39,7 @@
     "href": "eui-resources.html",
     "title": "EUI-specific resources",
     "section": "",
-    "text": "This page brings together EUI rules and resources on using AI in research. It is independently maintained; consult the linked EUI policies for their full wording.\nThe EUI Guidelines for the Responsible Use of AI for Research are the main source. In brief:"
+    "text": "This page brings together EUI rules and resources on using AI in research. It is independently maintained and as such does not constitute official EUI policy. Please consult the linked EUI policies for their full wording.\nThe EUI Guidelines for the Responsible Use of AI for Research are the main source. In brief:"
   },
   {
     "objectID": "eui-resources.html#rules",
